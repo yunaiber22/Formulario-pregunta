@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-image: url('fondo.jpg');
+    margin: 0px;
+    align-content: center;
+}
+
+.contenedordeclaracion{
+    width: 100%;
+    margin:0 auto;
+    overflow: hidden;
+    max-width: 1000px;
+}
+
+.encabezadopregunta{
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.623);
+    padding: 60px;
+    max-width: 10000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.pregunta{
+    width: 500px;
+    background: #ffffff6e;
+    padding: 30px;
+    margin-top: 80px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 30px;
+    font-size: 44px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    box-shadow: 7px 13px 37px rgb(248, 248, 248);
+}
+
+.encabezadopregunta h1{
+    font-size: 44px;
+    max-width: 10000px;
+    overflow: hidden;
+}
+
+#yesBtn{
+    border-color: #ffffff;
+    transform: translate(-100%,0);
+    width: 120px;
+    background: #ffffff00;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 50px;
+    border-radius: 30px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    box-shadow: 7px 13px 37px rgb(248, 248, 248);
+}
+
+#noBtn{
+    border-color: #ffffff;
+    position: absolute;
+    width: 120px;
+    background: #ffffff00;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: -50px;
+    margin-right: 100px;
+    border-radius: 30px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    box-shadow: 7px 13px 37px rgb(248, 248, 248);
+}
