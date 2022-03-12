@@ -1,2 +1,2 @@
-# Formulario-pregunta
-Formulario y posterior declaración
+# Formulario
+Formulario 
